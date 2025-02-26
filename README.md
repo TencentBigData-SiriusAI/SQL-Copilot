@@ -23,7 +23,9 @@ This repository accompanies the paper ​**SQL-Copilot: A Self-Learning Multi-Ag
    - ​**Optimization Agent**: Cost-aware query rewriting
    - ​**Repair Agent**: Auto-generate patched SQL with explanations
 
+<!-- 
 ## 🚀 Quick Start
 ### Step 1: Install Dependencies
 ```bash
 pip install -r requirements.txt
+-->
