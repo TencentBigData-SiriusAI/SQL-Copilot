@@ -14,14 +14,33 @@
 
 ## 📖 Overview
 This repository accompanies the paper ​**SQL-Copilot: A Self-Learning Multi-Agent Framework for End-to-End SQL Governance**​ and provides:
-1. ​**Payment-SQL Dataset**: A curated dataset containing 50,000+ real-world SQL queries with annotations for:
-   - ​**Quality Issues**​ (e.g., inefficient joins, missing indexes)
-   - ​**Security Risks**​ (e.g., SQLi patterns, over-privileged access)
-   - ​**Compliance Violations**​ (e.g., GDPR/PII data exposure)
-2. ​**Reference Implementation**: Modular codebase for building autonomous SQL governance agents, including:
-   - ​**Diagnosis Agent**: Rule-based + ML-driven anomaly detection
-   - ​**Optimization Agent**: Cost-aware query rewriting
-   - ​**Repair Agent**: Auto-generate patched SQL with explanations
+###  ​**Payment-SQL Dataset**:
+   
+
+Table 1: Detailed Statistics on Payment-SQL
+| Data Statistics           | Value |
+|---------------------------|-------|
+| # SQL Queries             | 50    |
+| # Average Tables          | 2     |
+| # Average Columns         | 11    |
+| Average Token Length      | 421   |
+| Max Token Length          | 1169  |
+| Min Token Length          | 163   |
+
+
+#### Key Observations :
+Industrial-Scale Complexity:
+- Average token length (421) far exceeds academic benchmarks (e.g., BIRD's 107 tokens)
+- Longest query spans 1,169 tokens, reflecting real-world nested operations
+
+Realistic Schema Interactions:
+- Queries involve 2 tables and 11 columns on average, mirroring production-grade JOIN patterns
+
+Rigorous Evaluation Baseline:
+- Minimum token length (163) still surpasses Spider 2.0’s "difficulty threshold" (160 tokens)
+- For research use, this dataset benchmarks SQL optimization tools under industrial-grade complexity
+
+
 
 <!-- 
 ## 🚀 Quick Start
