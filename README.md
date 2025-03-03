@@ -6,11 +6,14 @@
 -->
 
 **Open-Source Components**:
-- 🗃️ ​**Payment-SQL Dataset**: A mini dataset of SQL optimization tasks built based on fully industrial-grade SQL.
-- 🤖 ​**Core Framework Code**: The code will be open source soon.
-- 🛠️ ​**Toolkit**: SQL Optimization, SQL Error Correction, SQL Quality Evaluation, SQL Consistency Check and SQL Diagnosis.
 
-<img src="architecture.png" alt="System Architecture" style="zoom: 25%;" /> 
+- 🗃️ ​**Payment-SQL Dataset**: A mini dataset of SQL optimization tasks built based on fully industrial-scale SQL.
+- 🤖 ​**Core Framework Code**: The code will be open source soon.
+  - 🛠️ ​**Toolkit**: SQL Optimization, SQL Error Correction, SQL Quality Evaluation, SQL Consistency Veirification.
+  - 📖 **Knowledge Base**: Task-specific knowledge bases.
+
+
+ <img src="architecture.png" alt="System Architecture" style="zoom: 25%;" /> 
 
 ## 📖 Overview
 This repository accompanies the paper **SQLGovernor: A Hybrid Self-Learning Multi-Agent Framework for End-to-End SQL Governance** and provides:
