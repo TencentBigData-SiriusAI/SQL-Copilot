@@ -1,4 +1,4 @@
-# SQL-Copilot: A Self-Learning Multi-Agent Framework for End-to-End SQL Governance
+# SQLGovernor: A Hybrid Self-Learning Multi-Agent Framework for End-to-End SQL Governance
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <!--
 [![arXiv](https://img.shields.io/badge/arXiv-<PaperID>-b31b1b.svg)](https://arxiv.org/abs/<PaperID>)
