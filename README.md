@@ -10,12 +10,12 @@
 - 🤖 ​**Core Framework Code**: The code will be open source soon.
 - 🛠️ ​**Toolkit**: SQL Optimization, SQL Error Correction, SQL Quality Evaluation, SQL Consistency Check and SQL Diagnosis.
 
-![System Architecture](docs/arch.png) <!-- 替换为实际架构图链接 -->
+<img src="/Users/shensiqi/Downloads/SQL-Copilot/architecture.png" alt="System Architecture" style="zoom: 25%;" /> 
 
 ## 📖 Overview
-This repository accompanies the paper ​**SQL-Copilot: A Self-Learning Multi-Agent Framework for End-to-End SQL Governance**​ and provides:
-###  ​**Payment-SQL Dataset**:
-   
+This repository accompanies the paper **SQLGovernor: A Hybrid Self-Learning Multi-Agent Framework for End-to-End SQL Governance** and provides:
+###  **Payment-SQL Dataset**:
+
 
 Table 1: Detailed Statistics on Payment-SQL
 | Data Statistics           | Value |
